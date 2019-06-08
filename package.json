@@ -7,11 +7,16 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "beautify": "eslint --fix ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap-vue": "^2.0.0-rc.19",
-    "eslint-plugin-es-beautifier": "^1.0.1",
+    "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -26,6 +31,7 @@
     "babel-eslint": "^10.0.1",
     "bootstrap": "^4.3.1",
     "eslint": "^5.16.0",
+    "eslint-plugin-es-beautifier": "^1.0.1",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.12.0",
     "popper.js": "^1.15.0",
@@ -40,6 +46,7 @@
       "node": true
     },
     "extends": [
+      "plugin:es-beautifier/standard",
       "plugin:vue/essential",
       "@vue/standard"
     ],
