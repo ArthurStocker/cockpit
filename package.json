@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.19",
+    "eslint-plugin-es-beautifier": "^1.0.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -42,8 +43,14 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
+    "rules": {
+      "comma-dangle": [
+        "error",
+        "never"
+      ]
+    },
     "parserOptions": {
+      "ecmaVersion": 6,
       "parser": "babel-eslint"
     }
   },
