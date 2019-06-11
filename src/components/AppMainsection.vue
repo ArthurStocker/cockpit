@@ -8,6 +8,7 @@
 <style lang="scss">
 #app-mainsection {
   margin: 0px;
+  height: 100vh;
 }
 </style>
 
