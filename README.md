@@ -1,4 +1,5 @@
 # cockpit
+Cockpit Software/Firmware for the LININO Board to control MSFS2020 / X Plane
 
 ## Project setup
 ```
