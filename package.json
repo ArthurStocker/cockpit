@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-e2e-cypress": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-unit-jest": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^4.0.0",
@@ -33,7 +33,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-es-beautifier": "^1.0.1",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^7.0.0",
+    "node-sass": "^9.0.0",
     "popper.js": "^1.15.0",
     "portal-vue": "^2.1.4",
     "sass-loader": "^7.1.0",
